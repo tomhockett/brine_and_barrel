@@ -1,7 +1,7 @@
 
-
+/* canvas settings */
 body {
-font-family: Arial;
+font-family: Courier;
 }
 
 img {
@@ -10,7 +10,8 @@ img {
   height: auto;
 }
 
-.container {
+/* home page placard */
+#container {
   position: relative;
   width: 100%;
 }
@@ -27,7 +28,7 @@ img {
 }
 
 .placard {
-  top: 25%;
+  top: 15%;
 }
 .contact {
   top: 35%;
