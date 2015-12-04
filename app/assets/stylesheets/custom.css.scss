@@ -138,6 +138,7 @@ footer ul li {
 	float: left;
 	margin-left: 15px;
 }
+
 /* google maps */
 
 #map-container {
@@ -151,17 +152,11 @@ footer ul li {
 	border-width: 7px;
 }
 
-#map-canvas {
-	flex: 1;
-}
+#map-canvas { flex: 1; }
 
-#address-canvas {
-	width: 50%;
-}
+#address-canvas { width: 50%; }
 
-#address-canvas img {
-	max-width: 350px;
-}
+#address-canvas img { max-width: 350px; }
 
 /* image elements */
 
@@ -169,3 +164,6 @@ div.about_logo  {
 	float: left;
 	min-height: 475px;
 }
+
+.flex-container { display: flex; }
+.center-pic { margin: auto; }
