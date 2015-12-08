@@ -141,9 +141,7 @@ footer ul li {
 
 /* google maps */
 
-#map-container {
-	display: flex;
-	height: 300px;
+.container-fluid {
 	border-radius: 16px 16px;
 	border-color: #fff;
 	border-style: solid;
@@ -151,12 +149,6 @@ footer ul li {
 	margin-top: 25px;
 	border-width: 7px;
 }
-
-#map-canvas { flex: 1; }
-
-#address-canvas { width: 50%; }
-
-#address-canvas img { max-width: 350px; }
 
 /* image elements */
 
