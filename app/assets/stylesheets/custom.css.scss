@@ -152,10 +152,17 @@ footer ul li {
 
 /* image elements */
 
+a#logo > img {
+	max-height: 40px;
+}
+
 div.about_logo  {
 	float: left;
 	min-height: 475px;
 }
 
 .flex-container { display: flex; }
-.center-pic { margin: auto; }
+.center-pic { 
+	margin: auto; 
+	clear: both;
+}
