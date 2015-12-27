@@ -1,13 +1,52 @@
-<div id="canvas">
-
-	<div class="center jumbotron placard">
-		<h1>Stay crisp, people.</h1>
+<!-- first section - Home -->
+<div class="container-fluid">
+	<div id="home" class="home">
+		<div class="text-vcenter">
+			<h1>Stay crisp, people.</h1>
+		</div>
 	</div>
-
-	<div class="center jumbotron comingsoon">
-		<h1>Online store coming Soon!</h1>
-		<h2>We're working hard to bring you the best pickles as well as the best online store to satisfy your cravings!</h2>
-	</div>
-
-	<%= image_tag('brine_and_barrel.jpg') %>
 </div>
+
+
+<!-- Social Media Pane -->
+<div id="social" class="pad-section">
+  <div class="container">
+    <h2 class="text-center">Online store coming soon!</h2> <hr />
+
+	<%= link_to "https://www.facebook.com/brineandbarrel" do %>
+	    <div class="row text-center">
+	      <div class="col-sm-3 col-xs-6">
+	        <i class="btn btn-social-icon btn-facebook"> 
+			<span class="fa fa-facebook"></span>
+	        </i>
+	        <h4>Facebook</h4>
+	      </div>
+	<% end %>
+
+	<%= link_to "" do %>
+	      <div class="col-sm-3 col-xs-6">
+		<i class="btn btn-social-icon btn-twitter"> 
+			<span class="fa fa-twitter"></span>
+	        </i>        <h4>Twitter</h4>
+	      </div>
+	<% end %>
+
+	<%= link_to "https://www.instagram.com/brineandbarrel/" do %>
+	      <div class="col-sm-3 col-xs-6">
+		<i class="btn btn-social-icon btn-instagram"> 
+			<span class="fa fa-instagram"></span>
+	        </i>        <h4>Instagram</h4>
+	      </div>
+	<% end %>
+
+	<%= link_to contact_path do %>
+	      <div class="col-sm-3 col-xs-6">
+	        <i class="glyphicon glyphicon-earphone"> </i>
+	        <h4>Telephone</h4>
+	      </div>
+	 <% end %>
+
+	    </div>
+  </div>
+</div>
+<!-- /social media pane -->
