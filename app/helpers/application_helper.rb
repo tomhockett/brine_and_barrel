@@ -10,9 +10,10 @@ module ApplicationHelper
 		end
 	end
 
+	# Turns phone number into a clickable link.
 	def tel_to(text)
 		groups = text.to_s.scan(/(?:^\+)?\d+/)
 		link_to text, "tel:#{groups.join '-'}"
 	end
-	
+
 end
