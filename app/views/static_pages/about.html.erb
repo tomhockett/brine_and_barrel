@@ -1,17 +1,21 @@
 <% provide(:title, "About") %>
-<div class="col-xs-12 col-md-4" style="padding-right: 30px">
-	<%= image_tag("logo_small_cropped.png") %>
-</div>
-<div class="col-xs-12 col-md-8">
-<p><strong>brine + barrel<span class='regtrade'>&reg;</span></strong> is a proud effort to provide great pickles inspired by the way that foods should be.  We utilize sustainable, local family farms and process in season using all natural, non-GMO ingredients when available. Every jar is hand packed and produced in small batches adhering to the craftsmanship standards that we truly appreciate. We sincerely hope that you enjoy these products as much as we do making them. <br />
-<br />
-Stay crisp, people.  <br />
-<br />
-<strong>brine + barrel<span class='regtrade'>&reg;</span></strong></p>
-</div>
+<div class="container">
+	<div class="row">
 
-<div class="col-xs-12">
-	<div class="center-pic about-pic">
-		<%=image_tag("pickle_base_cropped.png") %>
+		<div class="col-xs-12 col-md-4" style="padding-right: 30px">
+			<%= image_tag("logo_small_cropped.png", class: "center-block") %>
+		</div>
+
+		<div class="col-xs-12 col-md-8">
+		<p><strong>brine + barrel<span class='regtrade'>&reg;</span></strong> is a proud effort to provide great pickles inspired by the way that foods should be.  We utilize sustainable, local family farms and process in season using all natural, non-GMO ingredients. Every jar is hand packed and produced in small batches adhering to the craftsmanship standards that we truly appreciate. We sincerely hope that you enjoy these products as much as we do making them. <br />
+		<br />
+		Stay crisp, people.  <br />
+		<br />
+		<strong>brine + barrel<span class='regtrade'>&reg;</span></strong></p>
+		</div>
+
+		<div class="col-xs-12">
+			<%=image_tag("pickle_base_cropped.png", class: "center-block img-responsive") %>
+		</div>
 	</div>
 </div>
