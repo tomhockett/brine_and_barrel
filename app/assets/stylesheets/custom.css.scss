@@ -54,6 +54,7 @@ ul.navbar-right li {
   color: #354311;
 }
 
+/* social buttons */
 #social a {
   color: #354311;
 }
@@ -69,15 +70,11 @@ ul.navbar-right li {
   height: 100%;
   position: relative;
   width: 100%;
+  padding: 200px 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#home {
-  padding: 200px 0;
-  width: 100%;
 }
 
 .glyphicon-earphone {
