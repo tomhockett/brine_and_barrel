@@ -84,9 +84,21 @@ ul.navbar-right li {
 
 
 /* header */
+.navbar-default .navbar-brand {
+  color: #000;
+}
 
 .navbar-brand {
-  padding: 10px 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a.navbar-brand {
+  color: #000000;
+}
+
+span.regtrade {
+  font-size: .5em;
 }
 
 /* footer */
